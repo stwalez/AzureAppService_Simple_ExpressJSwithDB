@@ -8,14 +8,20 @@ Azure App Service Extension for Visual Studio Code was used for deployment to Az
 Azure App Service Extension
 Azure / Azure Stack Hub / ASDK
 
-Set the following Azure App Service App Settings
+Set the following Azure App Service App Settings in VS code
+`
 SCM_DO_BUILD_DURING_DEPLOYMENT = 1
 "WEBSITE_NODE_DEFAULT_VERSION":"10.15.2"
+`
 
-Add Database Connection Strings to as a JSON Template App Service Configuration >> Connection Strings
-For Example
-server=localhost;password=************;user id=username ;port=3306;database=db1
+Add Database Connection Strings to Azure / Azure Stack App Service Configuration >> Connection Strings as a JSON Template.
 
+For Example, the following connection string:
+
+`server=localhost;password=************;user id=username ;port=3306;database=db1`
+
+can be converted to a JSON template which is stored as a connection string on Connection strings in App Service this way:
+```
 [
   {
     "name": "mysqldb",
@@ -42,3 +48,4 @@ server=localhost;password=************;user id=username ;port=3306;database=db1
     "slotSetting": false
   }
 ]
+```
