@@ -20,7 +20,7 @@ For Example, the following connection string:
 
 `server=localhost;password=************;user id=username ;port=3306;database=db1`
 
-can be converted to a JSON template which is stored as a connection string on Connection strings in App Service this way:
+can be converted to a JSON template which is stored as a connection string on Connection strings in App Service:
 ```
 [
   {
