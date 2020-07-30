@@ -9,8 +9,8 @@ Azure App Service Extension
 Azure / Azure Stack Hub / ASDK
 
 Set the following Azure App Service App Settings in VS code
-`
-SCM_DO_BUILD_DURING_DEPLOYMENT = 1
+
+`SCM_DO_BUILD_DURING_DEPLOYMENT = 1
 "WEBSITE_NODE_DEFAULT_VERSION":"10.15.2"
 `
 
