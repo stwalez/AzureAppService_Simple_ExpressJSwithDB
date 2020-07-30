@@ -1,7 +1,7 @@
 # AzureAppService_Simple_ExpressJSwithDB
 An Express.js app for deployment to Azure Stack App Service
 
-Azure App Service Extension for Visual Studio Code was used for deployment to Azure Stack. This can also be used for deployment to Azure App Service.
+Azure App Service Extension for Visual Studio Code was used for deployment to Azure Stack. It can also be used for deployment to Azure App Service.
 
 
 ## Prerequisites
